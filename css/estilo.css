@@ -21,15 +21,24 @@ ol li{
  list-style-type: lower-roman;
 }
 
+ol li:nth-child(2){
+    color: crimson;
+}
+
+ol li:nth-child(4){
+    color: rgb(20, 220, 47);
+}
+
+
 section{
     color: rgb(235, 0, 125);
 }
 
-section section{
+section:hover section:hover{
     color: rgb(0, 102, 255);
 }
 
-section section section{
+section:hover section:hover section:hover{
     color: rgb(0, 255, 157);
 }
 
